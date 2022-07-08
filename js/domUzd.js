@@ -21,3 +21,7 @@ artTitle.textContent = 'pagrindinte antraste';
 artDate.textContent = new Date().toLocaleString('lt-LT', { dateStyle: 'long' });
 artText.textContent = artText.textContent + ' == sugeneruotas textas';
 // artText.textContent += ' == sugeneruotas textas';
+
+// prideti prie splalvu <li>Brown</li>
+colorsEl.innerHTML += '<li>Brown</li>';
+console.log('colorsEl.innerHTML ===', colorsEl.innerHTML);
