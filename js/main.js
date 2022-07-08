@@ -18,7 +18,7 @@ console.group('continue soka tiesiai i i++');
 // atspausdinti skaicius nuo 10 iki 20 bet praleisti 15
 for (let i = 10; i <= 20; i++) {
   if (i === 15) {
-    debugger;
+    // debugger;
     // continue soka tiesiai i i++
     // continue;
     break;
