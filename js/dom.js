@@ -12,6 +12,7 @@ const rez = textEl.textContent;
 console.log('rez ===', rez);
 
 // prideti nauja elementa i div su id box
+// memoryLocation 00xxlsq
 const boxEl = document.getElementById('box');
 // innerHTML - sugeneruoti html struktura is string
 boxEl.innerHTML = '<h3>As esu dinamiskas <i>elementas</i></h3>';
